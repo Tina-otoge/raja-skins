@@ -1,0 +1,7 @@
+local v1 = require("play9main")
+local v2 = main()
+if skin_config then
+	return v2.body()
+else
+	return v2.header
+end
